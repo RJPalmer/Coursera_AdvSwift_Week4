@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		306440D729B0234900A494F9 /* Coursera_AdvSwift_Week4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306440D629B0234900A494F9 /* Coursera_AdvSwift_Week4App.swift */; };
+		306440D929B0234900A494F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306440D829B0234900A494F9 /* ContentView.swift */; };
+		306440DB29B0234B00A494F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306440DA29B0234B00A494F9 /* Assets.xcassets */; };
+		306440DE29B0234B00A494F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306440DD29B0234B00A494F9 /* Preview Assets.xcassets */; };
+		306440E829B0234B00A494F9 /* Coursera_AdvSwift_Week4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306440E729B0234B00A494F9 /* Coursera_AdvSwift_Week4Tests.swift */; };
+		306440F229B0234B00A494F9 /* Coursera_AdvSwift_Week4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306440F129B0234B00A494F9 /* Coursera_AdvSwift_Week4UITests.swift */; };
+		306440F429B0234B00A494F9 /* Coursera_AdvSwift_Week4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306440F329B0234B00A494F9 /* Coursera_AdvSwift_Week4UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		306440E429B0234B00A494F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 306440CB29B0234900A494F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 306440D229B0234900A494F9;
+			remoteInfo = Coursera_AdvSwift_Week4;
+		};
+		306440EE29B0234B00A494F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 306440CB29B0234900A494F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 306440D229B0234900A494F9;
+			remoteInfo = Coursera_AdvSwift_Week4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		306440D329B0234900A494F9 /* Coursera_AdvSwift_Week4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coursera_AdvSwift_Week4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		306440D629B0234900A494F9 /* Coursera_AdvSwift_Week4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coursera_AdvSwift_Week4App.swift; sourceTree = "<group>"; };
+		306440D829B0234900A494F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		306440DA29B0234B00A494F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		306440DD29B0234B00A494F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		306440E329B0234B00A494F9 /* Coursera_AdvSwift_Week4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Coursera_AdvSwift_Week4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		306440E729B0234B00A494F9 /* Coursera_AdvSwift_Week4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coursera_AdvSwift_Week4Tests.swift; sourceTree = "<group>"; };
+		306440ED29B0234B00A494F9 /* Coursera_AdvSwift_Week4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Coursera_AdvSwift_Week4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		306440F129B0234B00A494F9 /* Coursera_AdvSwift_Week4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coursera_AdvSwift_Week4UITests.swift; sourceTree = "<group>"; };
+		306440F329B0234B00A494F9 /* Coursera_AdvSwift_Week4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coursera_AdvSwift_Week4UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		306440D029B0234900A494F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306440E029B0234B00A494F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306440EA29B0234B00A494F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		306440CA29B0234900A494F9 = {
+			isa = PBXGroup;
+			children = (
+				306440D529B0234900A494F9 /* Coursera_AdvSwift_Week4 */,
+				306440E629B0234B00A494F9 /* Coursera_AdvSwift_Week4Tests */,
+				306440F029B0234B00A494F9 /* Coursera_AdvSwift_Week4UITests */,
+				306440D429B0234900A494F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		306440D429B0234900A494F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				306440D329B0234900A494F9 /* Coursera_AdvSwift_Week4.app */,
+				306440E329B0234B00A494F9 /* Coursera_AdvSwift_Week4Tests.xctest */,
+				306440ED29B0234B00A494F9 /* Coursera_AdvSwift_Week4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		306440D529B0234900A494F9 /* Coursera_AdvSwift_Week4 */ = {
+			isa = PBXGroup;
+			children = (
+				306440D629B0234900A494F9 /* Coursera_AdvSwift_Week4App.swift */,
+				306440D829B0234900A494F9 /* ContentView.swift */,
+				306440DA29B0234B00A494F9 /* Assets.xcassets */,
+				306440DC29B0234B00A494F9 /* Preview Content */,
+			);
+			path = Coursera_AdvSwift_Week4;
+			sourceTree = "<group>";
+		};
+		306440DC29B0234B00A494F9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				306440DD29B0234B00A494F9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		306440E629B0234B00A494F9 /* Coursera_AdvSwift_Week4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				306440E729B0234B00A494F9 /* Coursera_AdvSwift_Week4Tests.swift */,
+			);
+			path = Coursera_AdvSwift_Week4Tests;
+			sourceTree = "<group>";
+		};
+		306440F029B0234B00A494F9 /* Coursera_AdvSwift_Week4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				306440F129B0234B00A494F9 /* Coursera_AdvSwift_Week4UITests.swift */,
+				306440F329B0234B00A494F9 /* Coursera_AdvSwift_Week4UITestsLaunchTests.swift */,
+			);
+			path = Coursera_AdvSwift_Week4UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		306440D229B0234900A494F9 /* Coursera_AdvSwift_Week4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 306440F729B0234B00A494F9 /* Build configuration list for PBXNativeTarget "Coursera_AdvSwift_Week4" */;
+			buildPhases = (
+				306440CF29B0234900A494F9 /* Sources */,
+				306440D029B0234900A494F9 /* Frameworks */,
+				306440D129B0234900A494F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Coursera_AdvSwift_Week4;
+			productName = Coursera_AdvSwift_Week4;
+			productReference = 306440D329B0234900A494F9 /* Coursera_AdvSwift_Week4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		306440E229B0234B00A494F9 /* Coursera_AdvSwift_Week4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 306440FA29B0234B00A494F9 /* Build configuration list for PBXNativeTarget "Coursera_AdvSwift_Week4Tests" */;
+			buildPhases = (
+				306440DF29B0234B00A494F9 /* Sources */,
+				306440E029B0234B00A494F9 /* Frameworks */,
+				306440E129B0234B00A494F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				306440E529B0234B00A494F9 /* PBXTargetDependency */,
+			);
+			name = Coursera_AdvSwift_Week4Tests;
+			productName = Coursera_AdvSwift_Week4Tests;
+			productReference = 306440E329B0234B00A494F9 /* Coursera_AdvSwift_Week4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		306440EC29B0234B00A494F9 /* Coursera_AdvSwift_Week4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 306440FD29B0234B00A494F9 /* Build configuration list for PBXNativeTarget "Coursera_AdvSwift_Week4UITests" */;
+			buildPhases = (
+				306440E929B0234B00A494F9 /* Sources */,
+				306440EA29B0234B00A494F9 /* Frameworks */,
+				306440EB29B0234B00A494F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				306440EF29B0234B00A494F9 /* PBXTargetDependency */,
+			);
+			name = Coursera_AdvSwift_Week4UITests;
+			productName = Coursera_AdvSwift_Week4UITests;
+			productReference = 306440ED29B0234B00A494F9 /* Coursera_AdvSwift_Week4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		306440CB29B0234900A494F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					306440D229B0234900A494F9 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					306440E229B0234B00A494F9 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 306440D229B0234900A494F9;
+					};
+					306440EC29B0234B00A494F9 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 306440D229B0234900A494F9;
+					};
+				};
+			};
+			buildConfigurationList = 306440CE29B0234900A494F9 /* Build configuration list for PBXProject "Coursera_AdvSwift_Week4" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 306440CA29B0234900A494F9;
+			productRefGroup = 306440D429B0234900A494F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				306440D229B0234900A494F9 /* Coursera_AdvSwift_Week4 */,
+				306440E229B0234B00A494F9 /* Coursera_AdvSwift_Week4Tests */,
+				306440EC29B0234B00A494F9 /* Coursera_AdvSwift_Week4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		306440D129B0234900A494F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306440DE29B0234B00A494F9 /* Preview Assets.xcassets in Resources */,
+				306440DB29B0234B00A494F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306440E129B0234B00A494F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306440EB29B0234B00A494F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		306440CF29B0234900A494F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306440D929B0234900A494F9 /* ContentView.swift in Sources */,
+				306440D729B0234900A494F9 /* Coursera_AdvSwift_Week4App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306440DF29B0234B00A494F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306440E829B0234B00A494F9 /* Coursera_AdvSwift_Week4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306440E929B0234B00A494F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306440F229B0234B00A494F9 /* Coursera_AdvSwift_Week4UITests.swift in Sources */,
+				306440F429B0234B00A494F9 /* Coursera_AdvSwift_Week4UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		306440E529B0234B00A494F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 306440D229B0234900A494F9 /* Coursera_AdvSwift_Week4 */;
+			targetProxy = 306440E429B0234B00A494F9 /* PBXContainerItemProxy */;
+		};
+		306440EF29B0234B00A494F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 306440D229B0234900A494F9 /* Coursera_AdvSwift_Week4 */;
+			targetProxy = 306440EE29B0234B00A494F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		306440F529B0234B00A494F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		306440F629B0234B00A494F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		306440F829B0234B00A494F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Coursera_AdvSwift_Week4/Preview Content\"";
+				DEVELOPMENT_TEAM = 5JVSN3RCY7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robpal.Coursera-AdvSwift-Week4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		306440F929B0234B00A494F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Coursera_AdvSwift_Week4/Preview Content\"";
+				DEVELOPMENT_TEAM = 5JVSN3RCY7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robpal.Coursera-AdvSwift-Week4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		306440FB29B0234B00A494F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5JVSN3RCY7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robpal.Coursera-AdvSwift-Week4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coursera_AdvSwift_Week4.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Coursera_AdvSwift_Week4";
+			};
+			name = Debug;
+		};
+		306440FC29B0234B00A494F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5JVSN3RCY7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robpal.Coursera-AdvSwift-Week4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coursera_AdvSwift_Week4.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Coursera_AdvSwift_Week4";
+			};
+			name = Release;
+		};
+		306440FE29B0234B00A494F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5JVSN3RCY7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robpal.Coursera-AdvSwift-Week4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Coursera_AdvSwift_Week4;
+			};
+			name = Debug;
+		};
+		306440FF29B0234B00A494F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5JVSN3RCY7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.robpal.Coursera-AdvSwift-Week4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Coursera_AdvSwift_Week4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		306440CE29B0234900A494F9 /* Build configuration list for PBXProject "Coursera_AdvSwift_Week4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306440F529B0234B00A494F9 /* Debug */,
+				306440F629B0234B00A494F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		306440F729B0234B00A494F9 /* Build configuration list for PBXNativeTarget "Coursera_AdvSwift_Week4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306440F829B0234B00A494F9 /* Debug */,
+				306440F929B0234B00A494F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		306440FA29B0234B00A494F9 /* Build configuration list for PBXNativeTarget "Coursera_AdvSwift_Week4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306440FB29B0234B00A494F9 /* Debug */,
+				306440FC29B0234B00A494F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		306440FD29B0234B00A494F9 /* Build configuration list for PBXNativeTarget "Coursera_AdvSwift_Week4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306440FE29B0234B00A494F9 /* Debug */,
+				306440FF29B0234B00A494F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 306440CB29B0234900A494F9 /* Project object */;
+}
