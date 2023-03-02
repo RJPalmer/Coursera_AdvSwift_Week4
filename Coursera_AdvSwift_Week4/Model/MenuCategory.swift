@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum MenuCategory : String{
+enum MenuCategory : String, CaseIterable{
     case Food = "Food"
     case Drink = "Drink"
     case Dessert = "Dessert"

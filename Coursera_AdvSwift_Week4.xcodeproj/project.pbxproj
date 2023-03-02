@@ -32,6 +32,9 @@
 		3064411629B0357600A494F9 /* MenuItemsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3064411529B0357600A494F9 /* MenuItemsDetailView.swift */; };
 		3064411729B0357600A494F9 /* MenuItemsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3064411529B0357600A494F9 /* MenuItemsDetailView.swift */; };
 		3064411829B0357600A494F9 /* MenuItemsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3064411529B0357600A494F9 /* MenuItemsDetailView.swift */; };
+		3064411B29B0F33400A494F9 /* LittleLemonHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3064411A29B0F33400A494F9 /* LittleLemonHeader.swift */; };
+		3064411C29B0F33400A494F9 /* LittleLemonHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3064411A29B0F33400A494F9 /* LittleLemonHeader.swift */; };
+		3064411D29B0F33400A494F9 /* LittleLemonHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3064411A29B0F33400A494F9 /* LittleLemonHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +71,7 @@
 		3064410D29B02FCE00A494F9 /* MenuCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCategory.swift; sourceTree = "<group>"; };
 		3064411129B0343300A494F9 /* MenuViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewViewModel.swift; sourceTree = "<group>"; };
 		3064411529B0357600A494F9 /* MenuItemsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemsDetailView.swift; sourceTree = "<group>"; };
+		3064411A29B0F33400A494F9 /* LittleLemonHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,15 +122,12 @@
 		306440D529B0234900A494F9 /* Coursera_AdvSwift_Week4 */ = {
 			isa = PBXGroup;
 			children = (
+				3064411929B0718800A494F9 /* vViews */,
 				3064410829B02E3D00A494F9 /* Model */,
 				306440D629B0234900A494F9 /* Coursera_AdvSwift_Week4App.swift */,
 				306440D829B0234900A494F9 /* ContentView.swift */,
 				306440DA29B0234B00A494F9 /* Assets.xcassets */,
 				306440DC29B0234B00A494F9 /* Preview Content */,
-				3064410029B0265000A494F9 /* MenuItemsView.swift */,
-				3064410429B026C800A494F9 /* MenuItemsOptionView.swift */,
-				3064411129B0343300A494F9 /* MenuViewViewModel.swift */,
-				3064411529B0357600A494F9 /* MenuItemsDetailView.swift */,
 			);
 			path = Coursera_AdvSwift_Week4;
 			sourceTree = "<group>";
@@ -159,10 +160,22 @@
 		3064410829B02E3D00A494F9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3064411129B0343300A494F9 /* MenuViewViewModel.swift */,
 				3064410929B02E5600A494F9 /* Ingredient.swift */,
 				3064410D29B02FCE00A494F9 /* MenuCategory.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		3064411929B0718800A494F9 /* vViews */ = {
+			isa = PBXGroup;
+			children = (
+				3064410429B026C800A494F9 /* MenuItemsOptionView.swift */,
+				3064411529B0357600A494F9 /* MenuItemsDetailView.swift */,
+				3064410029B0265000A494F9 /* MenuItemsView.swift */,
+				3064411A29B0F33400A494F9 /* LittleLemonHeader.swift */,
+			);
+			path = vViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3064411B29B0F33400A494F9 /* LittleLemonHeader.swift in Sources */,
 				306440D929B0234900A494F9 /* ContentView.swift in Sources */,
 				3064411629B0357600A494F9 /* MenuItemsDetailView.swift in Sources */,
 				3064410129B0265000A494F9 /* MenuItemsView.swift in Sources */,
@@ -314,6 +328,7 @@
 				3064410629B026C800A494F9 /* MenuItemsOptionView.swift in Sources */,
 				3064410229B0265000A494F9 /* MenuItemsView.swift in Sources */,
 				306440E829B0234B00A494F9 /* Coursera_AdvSwift_Week4Tests.swift in Sources */,
+				3064411C29B0F33400A494F9 /* LittleLemonHeader.swift in Sources */,
 				3064411329B0343300A494F9 /* MenuViewViewModel.swift in Sources */,
 				3064411729B0357600A494F9 /* MenuItemsDetailView.swift in Sources */,
 				3064410F29B02FCE00A494F9 /* MenuCategory.swift in Sources */,
@@ -324,6 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3064411D29B0F33400A494F9 /* LittleLemonHeader.swift in Sources */,
 				306440F229B0234B00A494F9 /* Coursera_AdvSwift_Week4UITests.swift in Sources */,
 				3064411829B0357600A494F9 /* MenuItemsDetailView.swift in Sources */,
 				3064410329B0265000A494F9 /* MenuItemsView.swift in Sources */,

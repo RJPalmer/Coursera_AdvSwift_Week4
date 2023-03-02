@@ -9,7 +9,11 @@ import SwiftUI
 
 struct MenuItemsView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List{
+            ForEach(MenuCategory.allCases, id: \.self){
+                value in Text(value.rawValue)
+            }
+        }
     }
 }
 
