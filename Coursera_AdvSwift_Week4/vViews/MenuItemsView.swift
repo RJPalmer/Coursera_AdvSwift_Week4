@@ -8,17 +8,28 @@
 import SwiftUI
 
 struct MenuItemsView: View {
+    var foodItems : [MenuItem] = []
+    
+    init(foodItems: [MenuItem]) {
+        self.foodItems = foodItems
+    }
     var body: some View {
         List{
-            ForEach(MenuCategory.allCases, id: \.self){
-                value in Text(value.rawValue)
-            }
+                ForEach(MenuCategory.allCases, id: \.self){
+                    value in Section(header: Text(value.rawValue)){
+                        HStack{
+                            FoodItemView()
+                                
+                        }
+                    }
+                }
         }
     }
 }
 
 struct MenuItemsView_Previews: PreviewProvider {
+    static let items: [MenuItem] = []
     static var previews: some View {
-        MenuItemsView()
+        MenuItemsView(foodItems: items)
     }
 }

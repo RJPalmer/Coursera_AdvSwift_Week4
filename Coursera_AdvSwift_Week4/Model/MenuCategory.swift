@@ -12,3 +12,9 @@ enum MenuCategory : String, CaseIterable{
     case Drink = "Drink"
     case Dessert = "Dessert"
 }
+
+extension MenuCategory{
+    init() {
+        self = MenuCategory.allCases.randomElement()!
+    }
+}
