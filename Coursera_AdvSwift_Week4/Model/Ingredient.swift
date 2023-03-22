@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Ingredient : String {
+enum Ingredient : String, Hashable {
     case Spinach = "Spinach"
     case Broccoli = "Broccoli"
     case Carrot = "Carrot"

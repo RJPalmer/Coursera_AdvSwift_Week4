@@ -20,8 +20,8 @@ protocol FoodItem: ObservableObject{
     var foodIngredients : [Ingredient] {get set}
 }
 
-class MenuItem: FoodItem{
-    
+class MenuItem: FoodItem, Equatable{
+
     var id: UUID
     
     var foodImage: String
@@ -44,7 +44,7 @@ class MenuItem: FoodItem{
         self.foodPrice = foodPrice
         self.numOrdered = numOrdered
         self.foodIngredients = foodIngredients
-        self.foodCategory = MenuCategory.Food
+        self.foodCategory = MenuCategory()
         self.id = UUID()
         self.secondPrice = 0
     }
@@ -58,6 +58,17 @@ class MenuItem: FoodItem{
         self.secondPrice = 0
         self.foodIngredients = []
         self.foodCategory = MenuCategory()
+    }
+    
+    static func == (lhs: MenuItem, rhs: MenuItem) -> Bool {
+        return lhs.id == rhs.id &&
+        lhs.foodImage == rhs.foodImage &&
+        lhs.foodCategory == rhs.foodCategory &&
+        lhs.foodTitle == rhs.foodTitle &&
+        lhs.foodPrice == rhs.foodPrice &&
+        lhs.numOrdered == rhs.numOrdered &&
+        lhs.secondPrice == rhs.secondPrice &&
+        lhs.foodIngredients == rhs.foodIngredients
     }
 }
 

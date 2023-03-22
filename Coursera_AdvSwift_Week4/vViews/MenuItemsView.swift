@@ -18,7 +18,10 @@ struct MenuItemsView: View {
                 ForEach(MenuCategory.allCases, id: \.self){
                     value in Section(header: Text(value.rawValue)){
                         HStack{
-                            FoodItemView()
+                            ForEach(foodItems,id: \.id){
+                                foodItem in FoodItemView(item:foodItem)
+                            }
+                            
                                 
                         }
                     }

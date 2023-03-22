@@ -9,17 +9,16 @@ import SwiftUI
 
 struct LittleLemonHeader: View {
     var body: some View {
-        Text("Menu")
-            .font(.headline)
-            .fontWeight(.bold)
-            .foregroundColor(Color.yellow)
-            .multilineTextAlignment(.leading)
-            .lineLimit(nil)
-            .padding(.trailing, 225.0)
+        HStack(spacing: 0.0) {
+            Text("Menu")
+                .padding(.horizontal)
+                .frame(width: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/, alignment: .leading)
+            Spacer()
+            NavigationLink(destination: MenuItemsOptionView(), label: {Image(systemName: "slider.horizontal.3")})
+                .padding(.trailing)
+            .frame(width: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100.0/*@END_MENU_TOKEN@*/,alignment: .trailing)
             
-            
-            
-            
+        }
     }
 }
 

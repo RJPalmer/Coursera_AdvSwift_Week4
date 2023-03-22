@@ -8,8 +8,20 @@
 import SwiftUI
 
 struct MenuItemsOptionView: View {
+    @State var filterSelection: MenuCategory = .Food
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Section(content: {
+                List(content: {
+                    Picker("Filter", selection: $filterSelection, content: {
+                        Text("Dessert").tag(MenuCategory.Dessert)
+                    })
+                    .pickerStyle(.inline)
+                })
+            })
+        }
+        
     }
 }
 
