@@ -20,8 +20,19 @@ protocol FoodItem: ObservableObject{
     var foodIngredients : [Ingredient] {get set}
 }
 
-class MenuItem: FoodItem, Equatable{
 
+class MenuItem: FoodItem, Equatable, Hashable{
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+        hasher.combine(foodImage)
+        hasher.combine(foodCategory)
+        hasher.combine(foodTitle)
+        hasher.combine(foodPrice)
+        hasher.combine(numOrdered)
+        hasher.combine(secondPrice)
+        hasher.combine(foodIngredients)
+    }
+    
     var id: UUID
     
     var foodImage: String
@@ -60,6 +71,16 @@ class MenuItem: FoodItem, Equatable{
         self.foodCategory = MenuCategory()
     }
     
+    required init(menuItemType: MenuCategory){
+        self.id = UUID()
+        self.foodImage = "Little Lemon logo"
+        self.foodTitle = "Food Item 1"
+        self.foodPrice = 0.00
+        self.numOrdered = 0
+        self.secondPrice = 0
+        self.foodIngredients = []
+        self.foodCategory = menuItemType
+    }
     static func == (lhs: MenuItem, rhs: MenuItem) -> Bool {
         return lhs.id == rhs.id &&
         lhs.foodImage == rhs.foodImage &&

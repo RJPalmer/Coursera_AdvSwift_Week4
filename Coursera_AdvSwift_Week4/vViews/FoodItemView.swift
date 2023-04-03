@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct FoodItemView: View {
+    internal init(item: MenuItem = MenuItem()) {
+        self.item = item
+    }
     
     var item = MenuItem()
     var body: some View{

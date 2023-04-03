@@ -7,11 +7,12 @@
 
 import Foundation
 
-enum MenuCategory : String, CaseIterable{
+enum MenuCategory : String, CaseIterable, Equatable{
     case Food = "Food"
     case Drink = "Drink"
     case Dessert = "Dessert"
 }
+
 
 extension MenuCategory{
     init() {

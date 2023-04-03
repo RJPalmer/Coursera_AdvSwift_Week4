@@ -6,16 +6,31 @@
 //
 
 import SwiftUI
+import OSLog
 
 struct MenuItemsOptionView: View {
-    @State var filterSelection: MenuCategory = .Food
+    @EnvironmentObject var test:MenuViewViewModel
+    let logfile = Logger()
     
     var body: some View {
         VStack{
             Section(content: {
                 List(content: {
-                    Picker("Filter", selection: $filterSelection, content: {
-                        Text("Dessert").tag(MenuCategory.Dessert)
+                    Picker("Selected Categories", selection: self.$test.itemFilter, content: {
+                        ForEach(MenuCategory.allCases, id: \.self, content: {
+                            value in Text(value.rawValue).tag(value as MenuCategory?)
+                        })
+                    })
+                    .onChange(of: test.itemFilter) { newValue in
+                        print("Current Value: \(String(describing: newValue?.rawValue))" )
+                    }
+                    .pickerStyle(.inline)
+
+                    
+                    Picker("Sort By", selection: self.$test.itemSort, content: {
+                        ForEach(SortCategory.allCases, id: \.self, content: {
+                            value in Text(value.rawValue).tag(value as SortCategory)
+                        })
                     })
                     .pickerStyle(.inline)
                 })
@@ -26,7 +41,8 @@ struct MenuItemsOptionView: View {
 }
 
 struct MenuItemsOptionView_Previews: PreviewProvider {
+    
     static var previews: some View {
-        MenuItemsOptionView()
+        MenuItemsOptionView().environmentObject(MenuViewViewModel())
     }
 }

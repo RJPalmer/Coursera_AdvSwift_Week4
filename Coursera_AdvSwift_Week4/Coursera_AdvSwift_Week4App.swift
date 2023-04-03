@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct Coursera_AdvSwift_Week4App: App {
+    @StateObject var logic:MenuViewViewModel = MenuViewViewModel(numFoodItems: 12, numDrinkItems: 8, numDesertItems: 4)
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(logic)
         }
     }
 }

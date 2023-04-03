@@ -32,6 +32,7 @@ struct MenuItemsDetailView: View {
 }
 
 struct MenuItemsDetailView_Previews: PreviewProvider {
+    
     static var previews: some View {
         MenuItemsDetailView()
     }
