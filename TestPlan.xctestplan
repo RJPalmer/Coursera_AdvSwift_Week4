@@ -1,0 +1,25 @@
+{
+  "configurations" : [
+    {
+      "id" : "56EEBD22-E8FA-4A38-961B-83EC11C053A6",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Coursera_AdvSwift_Week4.xcodeproj",
+        "identifier" : "306440E229B0234B00A494F9",
+        "name" : "Coursera_AdvSwift_Week4Tests"
+      }
+    }
+  ],
+  "version" : 1
+}

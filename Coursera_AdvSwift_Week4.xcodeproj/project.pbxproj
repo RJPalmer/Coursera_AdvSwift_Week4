@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		302FC04729E661B900AE17E6 /* MenuViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3064411129B0343300A494F9 /* MenuViewViewModel.swift */; };
+		302FC04829E661C900AE17E6 /* SortCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306107BD29CDE5FE00B50664 /* SortCategory.swift */; };
+		302FC04929E661F000AE17E6 /* MenuViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3064411129B0343300A494F9 /* MenuViewViewModel.swift */; };
+		302FC04A29E661F600AE17E6 /* SortCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306107BD29CDE5FE00B50664 /* SortCategory.swift */; };
+		304200F129E3D7E200DDC925 /* MenuItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 304200F029E3D7E200DDC925 /* MenuItemTests.swift */; };
 		306107BE29CDE5FE00B50664 /* SortCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306107BD29CDE5FE00B50664 /* SortCategory.swift */; };
 		306440D729B0234900A494F9 /* Coursera_AdvSwift_Week4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306440D629B0234900A494F9 /* Coursera_AdvSwift_Week4App.swift */; };
 		306440D929B0234900A494F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306440D829B0234900A494F9 /* ContentView.swift */; };
@@ -60,6 +65,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		304200ED29E3D54600DDC925 /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan.xctestplan; sourceTree = "<group>"; };
+		304200F029E3D7E200DDC925 /* MenuItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemTests.swift; sourceTree = "<group>"; };
 		306107BD29CDE5FE00B50664 /* SortCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortCategory.swift; sourceTree = "<group>"; };
 		306440D329B0234900A494F9 /* Coursera_AdvSwift_Week4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coursera_AdvSwift_Week4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		306440D629B0234900A494F9 /* Coursera_AdvSwift_Week4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coursera_AdvSwift_Week4App.swift; sourceTree = "<group>"; };
@@ -110,6 +117,7 @@
 		306440CA29B0234900A494F9 = {
 			isa = PBXGroup;
 			children = (
+				304200ED29E3D54600DDC925 /* TestPlan.xctestplan */,
 				306440D529B0234900A494F9 /* Coursera_AdvSwift_Week4 */,
 				306440E629B0234B00A494F9 /* Coursera_AdvSwift_Week4Tests */,
 				306440F029B0234B00A494F9 /* Coursera_AdvSwift_Week4UITests */,
@@ -153,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				306440E729B0234B00A494F9 /* Coursera_AdvSwift_Week4Tests.swift */,
+				304200F029E3D7E200DDC925 /* MenuItemTests.swift */,
 			);
 			path = Coursera_AdvSwift_Week4Tests;
 			sourceTree = "<group>";
@@ -351,10 +360,13 @@
 				3064410229B0265000A494F9 /* MenuItemsView.swift in Sources */,
 				306440E829B0234B00A494F9 /* Coursera_AdvSwift_Week4Tests.swift in Sources */,
 				3064412429B449AD00A494F9 /* MenuItem.swift in Sources */,
+				304200F129E3D7E200DDC925 /* MenuItemTests.swift in Sources */,
+				302FC04729E661B900AE17E6 /* MenuViewViewModel.swift in Sources */,
 				3064411C29B0F33400A494F9 /* LittleLemonHeader.swift in Sources */,
 				3064411729B0357600A494F9 /* MenuItemsDetailView.swift in Sources */,
 				3064412029B4477900A494F9 /* FoodItemView.swift in Sources */,
 				3064410F29B02FCE00A494F9 /* MenuCategory.swift in Sources */,
+				302FC04829E661C900AE17E6 /* SortCategory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,10 +380,12 @@
 				3064410329B0265000A494F9 /* MenuItemsView.swift in Sources */,
 				3064412129B4477900A494F9 /* FoodItemView.swift in Sources */,
 				306440F429B0234B00A494F9 /* Coursera_AdvSwift_Week4UITestsLaunchTests.swift in Sources */,
+				302FC04929E661F000AE17E6 /* MenuViewViewModel.swift in Sources */,
 				3064410729B026C800A494F9 /* MenuItemsOptionView.swift in Sources */,
 				3064411029B02FCE00A494F9 /* MenuCategory.swift in Sources */,
 				3064410C29B02E5600A494F9 /* Ingredient.swift in Sources */,
 				3064412529B449AD00A494F9 /* MenuItem.swift in Sources */,
+				302FC04A29E661F600AE17E6 /* SortCategory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

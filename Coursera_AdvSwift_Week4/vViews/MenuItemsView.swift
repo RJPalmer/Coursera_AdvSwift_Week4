@@ -24,7 +24,7 @@ struct MenuItemsView: View {
     private var gridItemLayout = [GridItem(.adaptive(minimum: 50))]
     
     var body: some View {
-        var display = items.filter({$0.foodCategory == test.itemFilter})
+//        var display = items.filter({$0.foodCategory == test.itemFilter})
         
        
 //        List{
@@ -39,14 +39,30 @@ struct MenuItemsView: View {
 //                }
 //            }
 //        }.environmentObject(test)
-        
+      
         List{
             Section {
                 ScrollView {
                     LazyVGrid(columns: gridItemLayout, content: {
-                        ForEach(displayItems, id: \.self){
-                            displayItem in HStack{
-                                FoodItemView(item: displayItem)
+                        
+                        ForEach(displayItems.sorted(by: {itemA,itemB in switch(test.itemSort){
+                            
+                        case .byMostPopular:
+                            return itemA.numOrdered > itemB.numOrdered
+                        case .byPrice:
+                            return itemA.foodPrice < itemB.foodPrice
+                        default:
+                            return itemA.foodTitle < itemB.foodTitle
+                            
+                        }}), id: \.self){
+                            displayItem in NavigationStack{
+                                HStack{
+                                    NavigationLink(value: displayItem){
+                                        FoodItemView(item: displayItem)
+                                    }
+                                }.navigationDestination(for: MenuItem.self) { item in
+                                    MenuItemsDetailView(item: item)
+                                }
                             }
                         }
                     }) 

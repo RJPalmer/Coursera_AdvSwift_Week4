@@ -21,7 +21,11 @@ protocol FoodItem: ObservableObject{
 }
 
 
-class MenuItem: FoodItem, Equatable, Hashable{
+class MenuItem: FoodItem, Equatable, Hashable, Comparable{
+    static func < (lhs: MenuItem, rhs: MenuItem) -> Bool {
+        return lhs.foodTitle < rhs.foodTitle
+    }
+    
     func hash(into hasher: inout Hasher) {
         hasher.combine(id)
         hasher.combine(foodImage)
@@ -72,11 +76,12 @@ class MenuItem: FoodItem, Equatable, Hashable{
     }
     
     required init(menuItemType: MenuCategory){
+        let ident:Int = Int.random(in: 1..<99)
         self.id = UUID()
         self.foodImage = "Little Lemon logo"
-        self.foodTitle = "Food Item 1"
-        self.foodPrice = 0.00
-        self.numOrdered = 0
+        self.foodTitle = "Food Item \(ident)"
+        self.foodPrice = Double.random(in: 9.99..<30.00)
+        self.numOrdered = Int.random(in: 1..<100)
         self.secondPrice = 0
         self.foodIngredients = []
         self.foodCategory = menuItemType

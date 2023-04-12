@@ -7,6 +7,8 @@
 
 import XCTest
 
+@testable import Coursera_AdvSwift_Week4
+
 final class Coursera_AdvSwift_Week4UITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
